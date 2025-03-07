@@ -44,31 +44,24 @@ private:
         request->custom_mode = "GUIDED";
 
         // Send request asynchronously
-        auto future = set_mode_client_->async_send_request(request);
-
-        // Wait for response
-        if (future.wait_for(std::chrono::seconds(5)) == std::future_status::ready)
-        {
-            auto response = future.get();
-            if (response->mode_sent)
-            {
-                RCLCPP_INFO(this->get_logger(), "Successfully switched to GUIDED mode.");
-            }
-            else
-            {
-                RCLCPP_ERROR(this->get_logger(), "Failed to switch to GUIDED mode.");
-            }
-        }
-        else
-        {
-            RCLCPP_ERROR(this->get_logger(), "Service call timed out.");
-        }
-    }
+        auto future = mode_change_client_->async_send_request(request, 
+            [this](rclcpp::Client<mavros_msgs::srv::SetMode>::SharedFuture response) {
+                try {
+                    if (response.get()->mode_sent) {
+                        RCLCPP_INFO(this->get_logger(), "Successfully set mode to GUIDED");
+                    } else {
+                        RCLCPP_WARN(this->get_logger(), "Failed to set mode to GUIDED");
+                    }
+                } catch (const std::exception& e) {
+                    RCLCPP_ERROR(this->get_logger(), "Service call failed: %s", e.what());
+                }
+    });
 
     int target_wp_;  // The input waypoint number to compare against
     int wp_completed_count_;  // Stores the count of waypoints reached
     rclcpp::Subscription<mavros_msgs::msg::WaypointReached>::SharedPtr wp_reached_sub_;
     rclcpp::Client<mavros_msgs::srv::SetMode>::SharedPtr set_mode_client_;  // Service client for set_mode
+}
 };
 
 int main(int argc, char *argv[])

@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "waypoint_counter"
+			"path" : "tracker"
 		}
 	],
 	"backtrace" : 1,
@@ -67,19 +67,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 20,
+				"line" : 26,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 34,
+				"line" : 40,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 25,
+				"line" : 31,
 				"parent" : 0
 			},
 			{
@@ -511,7 +511,7 @@
 			{
 				"command" : 9,
 				"file" : 0,
-				"line" : 31,
+				"line" : 37,
 				"parent" : 0
 			}
 		]
@@ -721,7 +721,7 @@
 			]
 		}
 	],
-	"id" : "waypoint_counter::@6890427a1f51a3e7e1df",
+	"id" : "tracker::@6890427a1f51a3e7e1df",
 	"install" : 
 	{
 		"destinations" : 
@@ -1266,8 +1266,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "waypoint_counter",
-	"nameOnDisk" : "waypoint_counter",
+	"name" : "tracker",
+	"nameOnDisk" : "tracker",
 	"paths" : 
 	{
 		"build" : ".",

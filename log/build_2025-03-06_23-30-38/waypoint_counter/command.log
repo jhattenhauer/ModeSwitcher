@@ -1,0 +1,2 @@
+Invoking command in '/home/james/Documents/Iceberg/ModeSwitcher/build/waypoint_counter': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/james/Documents/Iceberg/ModeSwitcher/build/waypoint_counter -- -j16 -l16
+Invoked command in '/home/james/Documents/Iceberg/ModeSwitcher/build/waypoint_counter' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/james/Documents/Iceberg/ModeSwitcher/build/waypoint_counter -- -j16 -l16

@@ -198,24 +198,24 @@ waypoint_counter_uninstall/fast:
 .PHONY : waypoint_counter_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named waypoint_counter
+# Target rules for targets named tracker
 
 # Build rule for target.
-waypoint_counter: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 waypoint_counter
-.PHONY : waypoint_counter
+tracker: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tracker
+.PHONY : tracker
 
 # fast build rule for target.
-waypoint_counter/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/waypoint_counter.dir/build.make CMakeFiles/waypoint_counter.dir/build
-.PHONY : waypoint_counter/fast
+tracker/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tracker.dir/build.make CMakeFiles/tracker.dir/build
+.PHONY : tracker/fast
 
 src/tracker.o: src/tracker.cpp.o
 .PHONY : src/tracker.o
 
 # target to build an object file
 src/tracker.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/waypoint_counter.dir/build.make CMakeFiles/waypoint_counter.dir/src/tracker.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tracker.dir/build.make CMakeFiles/tracker.dir/src/tracker.cpp.o
 .PHONY : src/tracker.cpp.o
 
 src/tracker.i: src/tracker.cpp.i
@@ -223,7 +223,7 @@ src/tracker.i: src/tracker.cpp.i
 
 # target to preprocess a source file
 src/tracker.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/waypoint_counter.dir/build.make CMakeFiles/waypoint_counter.dir/src/tracker.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tracker.dir/build.make CMakeFiles/tracker.dir/src/tracker.cpp.i
 .PHONY : src/tracker.cpp.i
 
 src/tracker.s: src/tracker.cpp.s
@@ -231,7 +231,7 @@ src/tracker.s: src/tracker.cpp.s
 
 # target to generate assembly for a file
 src/tracker.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/waypoint_counter.dir/build.make CMakeFiles/waypoint_counter.dir/src/tracker.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tracker.dir/build.make CMakeFiles/tracker.dir/src/tracker.cpp.s
 .PHONY : src/tracker.cpp.s
 
 # Help Target
@@ -249,7 +249,7 @@ help:
 	@echo "... test"
 	@echo "... uninstall"
 	@echo "... waypoint_counter_uninstall"
-	@echo "... waypoint_counter"
+	@echo "... tracker"
 	@echo "... src/tracker.o"
 	@echo "... src/tracker.i"
 	@echo "... src/tracker.s"

@@ -16,6 +16,12 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(mavros_msgs REQUIRED)
 
+# Install launch files.
+install(DIRECTORY
+  launch
+  DESTINATION share/${PROJECT_NAME}
+)
+
 # Declare executable
 add_executable(tracker 
   src/tracker.cpp  # Ensure this path matches your actual file location
@@ -34,6 +40,7 @@ target_compile_features(tracker PUBLIC cxx_std_17)
 install(TARGETS tracker
   DESTINATION lib/${PROJECT_NAME}
 )
+
 
 # Finalize ROS 2 package
 ament_package()

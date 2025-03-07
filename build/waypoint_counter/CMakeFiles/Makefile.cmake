@@ -736,5 +736,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
   "CMakeFiles/waypoint_counter_uninstall.dir/DependInfo.cmake"
-  "CMakeFiles/waypoint_counter.dir/DependInfo.cmake"
+  "CMakeFiles/tracker.dir/DependInfo.cmake"
   )
