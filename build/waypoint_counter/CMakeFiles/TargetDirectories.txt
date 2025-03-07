@@ -1,0 +1,10 @@
+/home/james/Documents/Iceberg/ModeSwitcher/build/waypoint_counter/CMakeFiles/uninstall.dir
+/home/james/Documents/Iceberg/ModeSwitcher/build/waypoint_counter/CMakeFiles/waypoint_counter_uninstall.dir
+/home/james/Documents/Iceberg/ModeSwitcher/build/waypoint_counter/CMakeFiles/waypoint_counter.dir
+/home/james/Documents/Iceberg/ModeSwitcher/build/waypoint_counter/CMakeFiles/test.dir
+/home/james/Documents/Iceberg/ModeSwitcher/build/waypoint_counter/CMakeFiles/edit_cache.dir
+/home/james/Documents/Iceberg/ModeSwitcher/build/waypoint_counter/CMakeFiles/rebuild_cache.dir
+/home/james/Documents/Iceberg/ModeSwitcher/build/waypoint_counter/CMakeFiles/list_install_components.dir
+/home/james/Documents/Iceberg/ModeSwitcher/build/waypoint_counter/CMakeFiles/install.dir
+/home/james/Documents/Iceberg/ModeSwitcher/build/waypoint_counter/CMakeFiles/install/local.dir
+/home/james/Documents/Iceberg/ModeSwitcher/build/waypoint_counter/CMakeFiles/install/strip.dir

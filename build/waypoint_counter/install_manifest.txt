@@ -1,0 +1,16 @@
+/home/james/Documents/Iceberg/ModeSwitcher/install/waypoint_counter/lib/waypoint_counter/waypoint_counter
+/home/james/Documents/Iceberg/ModeSwitcher/install/waypoint_counter/share/ament_index/resource_index/package_run_dependencies/waypoint_counter
+/home/james/Documents/Iceberg/ModeSwitcher/install/waypoint_counter/share/ament_index/resource_index/parent_prefix_path/waypoint_counter
+/home/james/Documents/Iceberg/ModeSwitcher/install/waypoint_counter/share/waypoint_counter/environment/ament_prefix_path.sh
+/home/james/Documents/Iceberg/ModeSwitcher/install/waypoint_counter/share/waypoint_counter/environment/ament_prefix_path.dsv
+/home/james/Documents/Iceberg/ModeSwitcher/install/waypoint_counter/share/waypoint_counter/environment/path.sh
+/home/james/Documents/Iceberg/ModeSwitcher/install/waypoint_counter/share/waypoint_counter/environment/path.dsv
+/home/james/Documents/Iceberg/ModeSwitcher/install/waypoint_counter/share/waypoint_counter/local_setup.bash
+/home/james/Documents/Iceberg/ModeSwitcher/install/waypoint_counter/share/waypoint_counter/local_setup.sh
+/home/james/Documents/Iceberg/ModeSwitcher/install/waypoint_counter/share/waypoint_counter/local_setup.zsh
+/home/james/Documents/Iceberg/ModeSwitcher/install/waypoint_counter/share/waypoint_counter/local_setup.dsv
+/home/james/Documents/Iceberg/ModeSwitcher/install/waypoint_counter/share/waypoint_counter/package.dsv
+/home/james/Documents/Iceberg/ModeSwitcher/install/waypoint_counter/share/ament_index/resource_index/packages/waypoint_counter
+/home/james/Documents/Iceberg/ModeSwitcher/install/waypoint_counter/share/waypoint_counter/cmake/waypoint_counterConfig.cmake
+/home/james/Documents/Iceberg/ModeSwitcher/install/waypoint_counter/share/waypoint_counter/cmake/waypoint_counterConfig-version.cmake
+/home/james/Documents/Iceberg/ModeSwitcher/install/waypoint_counter/share/waypoint_counter/package.xml

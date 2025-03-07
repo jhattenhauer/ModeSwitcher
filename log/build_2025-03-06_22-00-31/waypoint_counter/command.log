@@ -1,0 +1,6 @@
+Invoking command in '/home/james/Documents/Iceberg/ModeSwitcher/build/waypoint_counter': /usr/bin/cmake /home/james/Documents/Iceberg/ModeSwitcher -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/james/Documents/Iceberg/ModeSwitcher/install/waypoint_counter
+Invoked command in '/home/james/Documents/Iceberg/ModeSwitcher/build/waypoint_counter' returned '0': /usr/bin/cmake /home/james/Documents/Iceberg/ModeSwitcher -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/james/Documents/Iceberg/ModeSwitcher/install/waypoint_counter
+Invoking command in '/home/james/Documents/Iceberg/ModeSwitcher/build/waypoint_counter': /usr/bin/cmake --build /home/james/Documents/Iceberg/ModeSwitcher/build/waypoint_counter -- -j16 -l16
+Invoked command in '/home/james/Documents/Iceberg/ModeSwitcher/build/waypoint_counter' returned '0': /usr/bin/cmake --build /home/james/Documents/Iceberg/ModeSwitcher/build/waypoint_counter -- -j16 -l16
+Invoking command in '/home/james/Documents/Iceberg/ModeSwitcher/build/waypoint_counter': /usr/bin/cmake --install /home/james/Documents/Iceberg/ModeSwitcher/build/waypoint_counter
+Invoked command in '/home/james/Documents/Iceberg/ModeSwitcher/build/waypoint_counter' returned '0': /usr/bin/cmake --install /home/james/Documents/Iceberg/ModeSwitcher/build/waypoint_counter

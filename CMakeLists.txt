@@ -12,7 +12,7 @@ find_package(rclcpp REQUIRED)
 find_package(mavros_msgs REQUIRED)
 
 # Declare your executable
-add_executable(waypoint_counter src/waypoint_counter.cpp)
+add_executable(waypoint_counter src/tracker.cpp)
 
 # Add dependencies
 ament_target_dependencies(waypoint_counter
