@@ -253,6 +253,15 @@ FastRTPS_LIBRARY_DEBUG:FILEPATH=FastRTPS_LIBRARY_DEBUG-NOTFOUND
 //Path to a library.
 FastRTPS_LIBRARY_RELEASE:FILEPATH=/opt/ros/humble/lib/libfastrtps.so
 
+//Value Computed by CMake
+ModeSwitcher_BINARY_DIR:STATIC=/home/james/Documents/Iceberg/ModeSwitcher/build/waypoint_counter
+
+//Value Computed by CMake
+ModeSwitcher_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+ModeSwitcher_SOURCE_DIR:STATIC=/home/james/Documents/Iceberg/ModeSwitcher
+
 //Path to a library.
 OPENSSL_CRYPTO_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libcrypto.so
 

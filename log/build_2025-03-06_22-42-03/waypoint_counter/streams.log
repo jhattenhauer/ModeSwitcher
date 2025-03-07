@@ -1,0 +1,39 @@
+[0.015s] Invoking command in '/home/james/Documents/Iceberg/ModeSwitcher/build/waypoint_counter': /usr/bin/cmake --build /home/james/Documents/Iceberg/ModeSwitcher/build/waypoint_counter -- -j16 -l16
+[0.035s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.150s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.187s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.190s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.196s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.207s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.221s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.260s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.261s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.409s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.467s] -- Found mavros_msgs: 2.9.0 (/opt/ros/humble/share/mavros_msgs/cmake)
+[0.662s] -- Configuring done
+[0.678s] -- Generating done
+[0.684s] -- Build files have been written to: /home/james/Documents/Iceberg/ModeSwitcher/build/waypoint_counter
+[0.732s] [ 50%] [32mBuilding CXX object CMakeFiles/waypoint_counter.dir/src/tracker.cpp.o[0m
+[0.778s] [100%] [32m[1mLinking CXX executable waypoint_counter[0m
+[1.260s] [100%] Built target waypoint_counter
+[1.272s] Invoked command in '/home/james/Documents/Iceberg/ModeSwitcher/build/waypoint_counter' returned '0': /usr/bin/cmake --build /home/james/Documents/Iceberg/ModeSwitcher/build/waypoint_counter -- -j16 -l16
+[1.280s] Invoking command in '/home/james/Documents/Iceberg/ModeSwitcher/build/waypoint_counter': /usr/bin/cmake --install /home/james/Documents/Iceberg/ModeSwitcher/build/waypoint_counter
+[1.283s] -- Install configuration: ""
+[1.283s] -- Installing: /home/james/Documents/Iceberg/ModeSwitcher/install/waypoint_counter/lib/waypoint_counter/waypoint_counter
+[1.289s] -- Set runtime path of "/home/james/Documents/Iceberg/ModeSwitcher/install/waypoint_counter/lib/waypoint_counter/waypoint_counter" to ""
+[1.289s] -- Installing: /home/james/Documents/Iceberg/ModeSwitcher/install/waypoint_counter/share/ament_index/resource_index/package_run_dependencies/waypoint_counter
+[1.289s] -- Up-to-date: /home/james/Documents/Iceberg/ModeSwitcher/install/waypoint_counter/share/ament_index/resource_index/parent_prefix_path/waypoint_counter
+[1.289s] -- Up-to-date: /home/james/Documents/Iceberg/ModeSwitcher/install/waypoint_counter/share/waypoint_counter/environment/ament_prefix_path.sh
+[1.290s] -- Installing: /home/james/Documents/Iceberg/ModeSwitcher/install/waypoint_counter/share/waypoint_counter/environment/ament_prefix_path.dsv
+[1.290s] -- Up-to-date: /home/james/Documents/Iceberg/ModeSwitcher/install/waypoint_counter/share/waypoint_counter/environment/path.sh
+[1.290s] -- Installing: /home/james/Documents/Iceberg/ModeSwitcher/install/waypoint_counter/share/waypoint_counter/environment/path.dsv
+[1.290s] -- Up-to-date: /home/james/Documents/Iceberg/ModeSwitcher/install/waypoint_counter/share/waypoint_counter/local_setup.bash
+[1.290s] -- Up-to-date: /home/james/Documents/Iceberg/ModeSwitcher/install/waypoint_counter/share/waypoint_counter/local_setup.sh
+[1.290s] -- Up-to-date: /home/james/Documents/Iceberg/ModeSwitcher/install/waypoint_counter/share/waypoint_counter/local_setup.zsh
+[1.290s] -- Installing: /home/james/Documents/Iceberg/ModeSwitcher/install/waypoint_counter/share/waypoint_counter/local_setup.dsv
+[1.290s] -- Installing: /home/james/Documents/Iceberg/ModeSwitcher/install/waypoint_counter/share/waypoint_counter/package.dsv
+[1.291s] -- Up-to-date: /home/james/Documents/Iceberg/ModeSwitcher/install/waypoint_counter/share/ament_index/resource_index/packages/waypoint_counter
+[1.291s] -- Up-to-date: /home/james/Documents/Iceberg/ModeSwitcher/install/waypoint_counter/share/waypoint_counter/cmake/waypoint_counterConfig.cmake
+[1.291s] -- Up-to-date: /home/james/Documents/Iceberg/ModeSwitcher/install/waypoint_counter/share/waypoint_counter/cmake/waypoint_counterConfig-version.cmake
+[1.291s] -- Installing: /home/james/Documents/Iceberg/ModeSwitcher/install/waypoint_counter/share/waypoint_counter/package.xml
+[1.293s] Invoked command in '/home/james/Documents/Iceberg/ModeSwitcher/build/waypoint_counter' returned '0': /usr/bin/cmake --install /home/james/Documents/Iceberg/ModeSwitcher/build/waypoint_counter

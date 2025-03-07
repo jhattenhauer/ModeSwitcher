@@ -7,7 +7,7 @@
 class WaypointCounter : public rclcpp::Node
 {
 public:
-    WaypointCounter(int number) : Node("waypoint_counter"), target_wp_(number), wp_completed_count_(0)
+    WaypointCounter(int number) : Node("tracker"), target_wp_(number), wp_completed_count_(0)
     {
         RCLCPP_INFO(this->get_logger(), "Total Waypoints: %d", target_wp_);
 

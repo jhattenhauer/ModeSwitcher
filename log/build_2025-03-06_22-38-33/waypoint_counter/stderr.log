@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:55 (file):
+  file RPATH_CHANGE given FILE
+  "/home/james/Documents/Iceberg/ModeSwitcher/install/waypoint_counter/lib/waypoint_counter"
+  that does not exist.
+
+[0m

@@ -1,0 +1,22 @@
+[0.015s] Invoking command in '/home/james/Documents/Iceberg/ModeSwitcher/build/waypoint_counter': /usr/bin/cmake --build /home/james/Documents/Iceberg/ModeSwitcher/build/waypoint_counter -- -j16 -l16
+[0.036s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.151s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.188s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.191s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.197s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.208s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.223s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.264s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.265s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.414s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.472s] -- Found mavros_msgs: 2.9.0 (/opt/ros/humble/share/mavros_msgs/cmake)
+[0.564s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[0.564s]   ament_target_dependencies() the first argument must be a valid target name
+[0.564s] Call Stack (most recent call first):
+[0.564s]   CMakeLists.txt:25 (ament_target_dependencies)
+[0.564s] 
+[0.565s] [0m
+[0.565s] -- Configuring incomplete, errors occurred!
+[0.565s] See also "/home/james/Documents/Iceberg/ModeSwitcher/build/waypoint_counter/CMakeFiles/CMakeOutput.log".
+[0.580s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.582s] Invoked command in '/home/james/Documents/Iceberg/ModeSwitcher/build/waypoint_counter' returned '2': /usr/bin/cmake --build /home/james/Documents/Iceberg/ModeSwitcher/build/waypoint_counter -- -j16 -l16
